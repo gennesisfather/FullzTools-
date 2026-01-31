@@ -1,0 +1,38 @@
+{
+    "name": "gennesisfather/fullztools",
+    "description": "FullzTools - A modern PHP application following PSR-4 standards",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FullzTools Team"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FullzTools\\": "src/"
+        },
+        "files": [
+            "src/Includes/Global.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FullzTools\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    }
+}
