@@ -1,24 +1,6 @@
 <?php
 
-namespace FullzTools\Config;
+// Constants Configuration
 
-/**
- * Application Constants
- * 
- * Defines application-wide constants
- */
-class Constants
-{
-    const APP_NAME = 'FullzTools';
-    const VERSION = '1.0.0';
-    
-    // User roles
-    const ROLE_ADMIN = 'admin';
-    const ROLE_SELLER = 'seller';
-    const ROLE_USER = 'user';
-    
-    // Order statuses
-    const ORDER_PENDING = 'pending';
-    const ORDER_COMPLETED = 'completed';
-    const ORDER_CANCELLED = 'cancelled';
-}
+define('CURRENT_DATE_TIME', '2026-01-31 21:38:43');
+define('CURRENT_USER_LOGIN', 'gennesisfather');
