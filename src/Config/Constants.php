@@ -1,6 +1,10 @@
 <?php
 
-// Constants Configuration
+// Constant configuration
 
-define('CURRENT_DATE_TIME', '2026-01-31 21:38:43');
-define('CURRENT_USER_LOGIN', 'gennesisfather');
+define('APP_NAME', 'FullzTools');
+define('VERSION', '1.0.0');
+define('AUTHOR', 'gennesisfather');
+define('DATE_CREATED', '2026-01-31 21:40:51');
+
+?>
