@@ -1,27 +1,24 @@
 <?php
 
-// Constants configuration for FullzTools
+// Constants Configuration
 
 // Bootstrap settings
-define('BOOTSTRAP_SETTINGS', [
-    'env' => 'production',
-    'debug' => false,
-]);
+define('BOOTSTRAP_VERSION', '5.1.3');
+define('BOOTSTRAP_CSS_PATH', '/assets/css/bootstrap.min.css');
+define('BOOTSTRAP_JS_PATH', '/assets/js/bootstrap.bundle.min.js');
 
 // Database table names
-define('DB_TABLE_USERS', 'users');
-define('DB_TABLE_ORDERS', 'orders');
+define('TABLE_USERS', 'users');
+define('TABLE_ORDERS', 'orders');
+define('TABLE_PRODUCTS', 'products');
+define('TABLE_INVENTORY', 'inventory');
 
-// NowPayments configuration
-define('NOWPAYMENTS_API_KEY', 'your_nowpayments_api_key');
+// NOWPayments configuration
+define('NOW_PAYMENTS_API_KEY', 'your_api_key_here');
+define('NOW_PAYMENTS_SECRET', 'your_secret_here');
 
-// Sales configuration
-define('SALES_TAX_RATE', 0.07);
-
-// Inventory configuration
-define('INVENTORY_CHECK_INTERVAL', 60);
-
-// Timezone fallback
-define('TIMEZONE_FALLBACK', 'UTC');
+// Inventory details
+define('INVENTORY_LOW_THRESHOLD', 5);
+define('INVENTORY_CHECK_INTERVAL', 3600); // in seconds
 
 ?>
